@@ -131,16 +131,6 @@ Com essa credencial, o acesso funciona localmente sem depender do Supabase Auth.
 - CRUD de galeria no painel admin
 - CRUD de agendamentos no painel admin
 
-## Observacoes importantes
 
-- Se aparecer `Failed to fetch`, verifique URL/chave do Supabase e se o projeto esta online.
-- Se aparecer `DNS_PROBE_FINISHED_NXDOMAIN`, a `VITE_SUPABASE_URL` esta incorreta.
-- Em ambiente Windows/OneDrive pode ocorrer bloqueio do Vite/esbuild por permissao.
-
-## Sugestoes de proximos passos
-
-- Separar painel admin por paginas (`/admin/services`, `/admin/gallery`, `/admin/appointments`)
-- Adicionar confirmacao antes de excluir
-- Adicionar upload de imagem (Supabase Storage)
 - Criar perfil de usuario/admin em tabela `profiles`
 - Restringir policies para maior seguranca
