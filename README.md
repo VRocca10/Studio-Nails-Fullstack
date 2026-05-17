@@ -109,7 +109,7 @@ npm run preview
 
 - `/login` -> login principal
 - `/register` -> cadastro de usuario
-- `/` -> landing protegida por login
+- `/` -> landing protegida por login (se nao autenticado, redireciona para `/login`)
 - `/admin/login` -> login administrativo
 - `/admin` -> painel admin (protegido)
 
@@ -119,6 +119,8 @@ O projeto possui usuario de teste no frontend:
 
 - Email: `teste@studionails.com`
 - Senha: `StudioNails@123`
+
+Com essa credencial, o acesso funciona localmente sem depender do Supabase Auth.
 
 ## Funcionalidades implementadas
 
